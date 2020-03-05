@@ -232,82 +232,16 @@ section#timeline article div.inner span.date {
   border: 2px solid rgba(255,255,255,0.2);
   box-shadow: 0 0 0 7px #25303B;*/
 }
-section#timeline article div.inner span.date span {
-  display: block;
-  text-align: center;
-}
-section#timeline article div.inner span.date span.day {
-  font-size: 10px;
-}
-section#timeline article div.inner span.date span.month {
-  font-size: 18px;
-}
-section#timeline article div.inner span.date span.year {
-  font-size: 10px;
-}
-section#timeline article div.inner h2 {
-  padding: 15px;
-  margin: 0;
-  color: #fff; 
-  font-size: 20px;
-  letter-spacing: -1px;
-  border-radius: 6px 6px 0 0;
-  position: relative;
-}
-section#timeline article div.inner h2:after {
-  content: '';
-  position: absolute;
-  top: 20px;
-  right: -5px;
-  	width: 10px; 
-	  height: 10px;
-  -webkit-transform: rotate(-45deg);
-}
-section#timeline article div.inner p {
-  padding: 15px;
-  margin: 0;
-  font-size: 14px;
-  background: #fff;
-  color: #656565;
-  border-radius: 0 0 6px 6px;
-}
-section#timeline article:nth-child(2n+2) div.inner {
-  float: right;
-}
-section#timeline article:nth-child(2n+2) div.inner h2:after {
-  left: -5px;
-}
-section#timeline article:nth-child(1) div.inner h2 {
-  background: #DEC79B; /* #e74c3c;  */
-}
-section#timeline article:nth-child(1) div.inner h2:after {
-  background: #DEC79B;
-}
-section#timeline article:nth-child(2) div.inner h2 {
-  background: #DEC79B;
-}
-section#timeline article:nth-child(2) div.inner h2:after {
-  background: #DEC79B;
-}
-section#timeline article:nth-child(3) div.inner h2 {
-  background: #DEC79B;
-}
-section#timeline article:nth-child(3) div.inner h2:after {
-  background: #DEC79B;
-}
-section#timeline article:nth-child(4) div.inner h2 {
-  background: #DEC79B;
-}
-section#timeline article:nth-child(4) div.inner h2:after {
-  background: #DEC79B;
-}
-section#timeline article:nth-child(5) div.inner h2 {
-  background:#DEC79B;
-}
-section#timeline article:nth-child(5) div.inner h2:after {
-  background: #DEC79B;
-}
 
+#section-timeline .experience-container {
+  background-color: #18181E; 
+  color:white;
+  border-width: medium; 
+  padding: 0.5em;
+}
+#section-timeline .row-header {
+  color:#DEC79B;;
+}
 
 #section-timeline .project-description {
 	font-size: 1.5rem; 
