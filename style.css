@@ -29,12 +29,10 @@ h1, h2, h3, h4, h5, h6 {
 .topnav {
   overflow: hidden;
   background-color: #444455;
-  opacity: 0.2;
+  opacity: 1;
   width: 100%;
 }
-.topnav:hover {
-	opacity: 1; 
-}
+
 
 .topnav a {
   float: left;
