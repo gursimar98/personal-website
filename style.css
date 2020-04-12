@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #container img {
 	margin: 0;
+  height:500px;
 	width: 100%;
 }
 
@@ -34,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -44,8 +44,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color:#dec79b;;
+.topnav #hoverable:hover {
+  background-color:#dec79b;
   color: black;
 }
 
@@ -67,22 +67,6 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#container #centered-tagline {
-  font-size: 3rem; 
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-#container #centered-uni {
-  font-size: 2rem; 
-  color: white; 
-  font-family: 'Montserrat', sans-serif;
- font-weight: 300;
- text-transform: uppercase;
-}
-
 /*#container #personal-image{
   position: absolute;
   top: 10%;
@@ -97,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	height: auto;
 	font-family: 'Lora', serif;
-  font-size: 30px;
+  font-size: 17px;
 }
 
 #section-interests {
@@ -109,8 +93,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding:2%;
 }
 
+
+#section-interests .card-body {
+  font-size:17px;
+}
+
 #section-about #container-about {
-	font-size: 2rem; 
+	font-size:17px;
   color: white; /*#DEC79B; /*#333a56;*/
   padding: 2%; 
   font-family: 'Lora', serif;
@@ -127,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-interests #interests-text {
-	font-size: 30px; 
+	font-size: 19px; 
 	color: #DEC79B; /*#333a56;*/
 	padding-top:2%;
 	font-family: 'Montserrat', sans-serif;
@@ -159,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-timeline .timeline-element {
-	font-size: 15px; 
+	font-size: 17px; 
 	color: white; 
 }
 
@@ -169,12 +158,13 @@ h1, h2, h3, h4, h5, h6 {
   border-width: medium; 
   padding: 0.5em;
   width: 100%; 
+  font-size: 17px;
 }
 
 #section-timeline .position-title{
   color: #DEC79B; 
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 17px;
 }
 
 #section-timeline .row-header {
@@ -182,13 +172,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-timeline .project-description {
-	font-size: 1.5rem; 
+	font-size: 17px; 
 	color:white;
 	width:100%;
 }
 
 #section-timeline .skills-text {
-	font-size: 15px;
+	font-size: 17px;
 	color:white;
 	padding:2%;
 }
@@ -204,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 #section-header-skills {
   color:white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 17px;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -218,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-footer .footer-icon {
-	font-size:3.4rem; 
+	font-size:17px; 
 	color:white;
 }
 
@@ -227,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-footer .footer-text {
-	font-size: 2rem; 
+	font-size: 17px; 
 	color: white;
 }
 
