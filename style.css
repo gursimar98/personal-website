@@ -3,6 +3,7 @@ body {
   background-repeat:no-repeat;
   background-color: #005EB8;
   font-family: 'Lora', serif; 
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
